@@ -1,31 +1,24 @@
-.header {
-    max-width: 1184px;
-    margin: 0 auto;
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 28px;
-}
-
-@media screen and (max-width: 1200px) {
-    .header {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
+    margin: 0 48px 24px;
 }
 
 @media screen and (max-width: 768px) {
-    .header {
+    .footer {
         margin-left: 24px;
         margin-right: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .header {
-        margin-top: 16px;
+    .footer {
+        flex-direction: column;
+        align-items: start;
         margin-left: 16px;
         margin-right: 16px;
-        max-width: 100%;
     }
 }
