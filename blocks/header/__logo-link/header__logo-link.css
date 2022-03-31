@@ -1,6 +1,5 @@
 .header__logo-link {
-    max-width: 176px;
-    max-height: 52px;
+    width: 176px;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
@@ -11,7 +10,6 @@
 
 @media screen and (max-width: 425px) {
     .header__logo-link {
-        max-width: 142px;
-        max-height: 42px;
+        width: 142px;
     }
 }
