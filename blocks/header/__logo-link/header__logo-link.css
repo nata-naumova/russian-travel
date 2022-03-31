@@ -1,0 +1,10 @@
+.header__logo-link {
+    max-width: 176px;
+    max-height: 52px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.header__logo-link:hover {
+    opacity: 0.7;
+}
