@@ -1,8 +1,18 @@
 .footer {
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 48px 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
 }
 
 @media screen and (max-width: 768px) {

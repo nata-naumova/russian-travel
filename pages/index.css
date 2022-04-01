@@ -30,7 +30,12 @@
 @import url(../blocks/intro/__item/intro__item.css);
 @import url(../blocks/intro/__item-num/intro__item-num.css);
 
-/* Блок -  */
+/* Блок - photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* Блок - places */
+/* Блок - cover */
 
 
 /* Блок - footer */
